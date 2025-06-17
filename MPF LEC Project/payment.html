@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment & Booking Summary</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="header"></div>
+    
+    <div class="container">
+        <div class="left-section">
+            <div class="payment-section">
+                <h2 class="section-title">Payment Method</h2>
+                
+                <div class="payment-method">
+                    <div class="method-title">Card</div>
+                    <div class="payment-options">
+                        <div class="payment-option selected">
+                            <input type="radio" name="card" id="bca" checked>
+                            <label for="bca">BCA</label>
+                        </div>
+                        <div class="payment-option">
+                            <input type="radio" name="card" id="bri">
+                            <label for="bri">BRI</label>
+                        </div>
+                        <div class="payment-option">
+                            <input type="radio" name="card" id="bni">
+                            <label for="bni">BNI</label>
+                        </div>
+                        <div class="payment-option">
+                            <input type="radio" name="card" id="qris">
+                            <label for="qris">QRIS</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="payment-method">
+                    <div class="method-title">Digital Wallet</div>
+                    <div class="digital-wallet">
+                        <div class="payment-option">
+                            <input type="radio" name="wallet" id="gopay">
+                            <label for="gopay">Gopay</label>
+                        </div>
+                        <div class="payment-option">
+                            <input type="radio" name="wallet" id="dana">
+                            <label for="dana">Dana</label>
+                        </div>
+                        <div class="payment-option">
+                            <input type="radio" name="wallet" id="ovo">
+                            <label for="ovo">OVO</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cancellation-policy">
+                <h3 class="policy-title">Cancellation Policy</h3>
+                <p class="policy-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sapien at odio volutpat tincidunt vulputate et ipsum. Nunc sed risus gravida felis dapibus tempor. Mauris eu commodo libero. Cras rhoncus tristique arcu, et semper mauris scelerisque quis. Donec iaculis ante arcu, et ullamcorper tortor volutpat sed. Sed accumsan neque justo, vel tincidunt felis vulputate in. Morbi luctus neque lorem, quis laoreet est tempor id.
+                </p>
+            </div>
+        </div>
+        
+        <div class="right-section">
+            <div class="hotel-card">
+                <div class="hotel-image">
+                    <div class="hotel-title">Hotel Name | Tokyo, Japan</div>
+                </div>
+            </div>
+            
+            <div class="trip-summary">
+                <h3 class="summary-title">Your Trip Summary</h3>
+                
+                <div class="trip-details">
+                    <div class="trip-row">
+                        <span class="trip-label">Check In</span>
+                        <span class="trip-value">Mon, 12 May 2025</span>
+                    </div>
+                    <div class="trip-row">
+                        <span class="trip-label">Check Out</span>
+                        <span class="trip-value">Fri, 16 May 2025</span>
+                    </div>
+                    <div class="trip-row">
+                        <span class="trip-label">Guests</span>
+                        <span class="trip-value">05</span>
+                    </div>
+                </div>
+                
+                <div class="order-summary">
+                    <h4 class="summary-title">Order Summary</h4>
+                    
+                    <div class="order-row">
+                        <span class="order-label">4 Days 3 Night</span>
+                        <span class="order-value">Rp. 2,500,000</span>
+                    </div>
+                    <div class="order-row">
+                        <span class="order-label">Tax</span>
+                        <span class="order-value">Rp. 200,000</span>
+                    </div>
+                    <div class="order-row">
+                        <span class="order-label">Service</span>
+                        <span class="order-value">Rp. 150,000</span>
+                    </div>
+                    
+                    <div class="order-row total-row">
+                        <span class="order-label">Total</span>
+                        <span class="order-value">Rp. 2,850,000</span>
+                    </div>
+                </div>
+                
+                <button class="confirm-button">Confirm & Pay</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+</html>

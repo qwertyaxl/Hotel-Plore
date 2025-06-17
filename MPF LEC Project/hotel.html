@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel</title>
+  <link rel="stylesheet" href="styleHotel.css" />
+  <script defer src="scriptHotel.js"></script>
+  <style>
+    @font-face {
+      font-family: 'Satoshi';
+      src: url('ASSETS/Satoshi-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <div class="search-bar-container">
+                <input type="text" placeholder="Find Hotels...">
+                <i class="fas fa-search"></i>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Recommended</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <div class="container fade-in">
+    
+    <!-- Hotel Gallery -->
+    <section class="hotel-gallery">
+      <img src="ASSETS/GNHK1.png" alt="Hotel 1" />
+      <img src="ASSETS/GNHK2.png" alt="Hotel 2" />
+      <img src="ASSETS/GNKH3.png" alt="Hotel 3" />
+      <img src="ASSETS/GNHK4.png" alt="Hotel 4" />
+      <img src="ASSETS/GNHK5.png" alt="Hotel 5" />
+    </section>
+
+    <!-- Hotel Title -->
+    <section class="hotel-title">
+      <h1>Good<br>Nature<br>Hotel Kyoto</h1>
+    </section>
+
+    <!-- Hotel Description -->
+    <section class="hotel-description">
+      <p><strong>Description:</strong><br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sapien at odio pulvinar tincidunt vulputate et ipsum.</p>
+      <div class="amenities">
+        <div>
+          <strong>Amenities:</strong>
+          <ul>
+            <li>Lorem</li>
+            <li>Ipsum</li>
+            <li>Dolor</li>
+            <li>Sit</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Facilities:</strong>
+          <ul>
+            <li>Lorem</li>
+            <li>Ipsum</li>
+            <li>Dolor</li>
+            <li>Sit</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Room Types -->
+    <section class="room-types">
+      <h2>Room Types</h2>
+      <div class="room">
+        <img src="ASSETS/image.png" alt="Deluxe Room" />
+        <div class="room-info">
+          <h3>Deluxe Room</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sapien at odio pulvinar tincidunt vulputate et ipsum.</p>
+          <a href="payment.html">
+            <button>Confirm & Pay</button>
+          </a>
+        </div>
+      </div>
+      <div class="room">
+        <img src="ASSETS/image2.png" alt="Normal Room" />
+        <div class="room-info">
+          <h3>Normal Room</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sapien at odio pulvinar tincidunt vulputate et ipsum.</p>
+          <a href="payment.html">
+            <button>Confirm & Pay</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews">
+      <h2>Reviews</h2>
+      <div class="review">
+        <img src="ASSETS/jaypark.jpg" alt="JP" class="profile-pic" />
+        <div class="review-text">
+          <h3>Jay PARK</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sapien at odio pulvinar tincidunt vulputate et ipsum.</p>
+        </div>
+        <div class="stars">★★★★★</div>
+      </div>
+      <div class="review">
+        <img src="ASSETS/minji.webp" alt="minji" class="profile-pic" />
+        <div class="review-text">
+          <h3>Minji</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sapien at odio pulvinar tincidunt vulputate et ipsum.</p>
+        </div>
+        <div class="stars">★★★★★</div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

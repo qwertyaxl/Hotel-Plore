@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Hotel - Home</title>
+    <link rel="stylesheet" href="styleHome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-nav">
+            <div class="search-bar-container">
+                <input type="text" placeholder="Find Hotels...">
+                <i class="fas fa-search"></i>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Recommended</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="carousel-container">
+                <div class="carousel-slide active">
+                    <img src="/ASSETS/images/maldives-hotel.png" alt="Maldives Hotel">
+                    <div class="slide-info">
+                        <h2>The Paradise Resort Maldives</h2>
+                        <p>Rating: ★★★★★ | Kolam Renang Infinity | Pemandangan Laut Menakjubkan</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="/ASSETS/images/city-hotel.png" alt="City Hotel">
+                    <div class="slide-info">
+                        <h2>Metropolitan Grand Hotel</h2>
+                        <p>Rating: ★★★★☆ | Pusat Kota | Dekat Destinasi Belanja & Hiburan</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="/ASSETS/images/hotel-beach.png" alt="Hotel Beach">
+                    <div class="slide-info">
+                        <h2>Sunset Beach Resort</h2>
+                        <p>Rating: ★★★★☆ | Akses Langsung Pantai | Restoran Seafood Terbaik</p>
+                    </div>
+                </div>
+                <button class="carousel-button prev-button" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-button next-button" onclick="nextSlide()">&#10095;</button>
+            </div>
+            </section>
+
+        <section class="popular-hotels-section">
+  <h2>Popular Hotels</h2>
+  <div class="hotel-cards-container">
+    <a href="hotel.html" class="hotel-card">
+      <img src="/ASSETS/images/hotel1.png" alt="Hotel 1">
+      <h3>hotel 1</h3>
+      <span class="rate-button">rate</span>
+    </a>
+    <a href="hotel2.html" class="hotel-card">
+      <img src="/ASSETS/images/hotel2.png" alt="Hotel 2">
+      <h3>hotel 2</h3>
+      <span class="rate-button">rate</span>
+    </a>
+    <a href="hotel3.html" class="hotel-card">
+      <img src="/ASSETS/images/hotel3.png" alt="Hotel 3">
+      <h3>hotel 3</h3>
+      <span class="rate-button">rate</span>
+    </a>
+  </div>
+</section>
+
+        <section class="features-section">
+            <div class="feature-box">
+                <img src="images/icon-comfort.png" alt="Comfort Icon"> <p>Unbeatable comfort and service.</p>
+            </div>
+            <div class="feature-box">
+                <img src="images/icon-trusted.png" alt="Trusted Icon"> <p>Trusted by thousands of happy travelers!</p>
+            </div>
+            <div class="feature-box">
+                <img src="images/icon-verified.png" alt="Verified Icon"> <p>Verified reviews and secure payments</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="scriptHome.js"></script>
+</body>
+</html>

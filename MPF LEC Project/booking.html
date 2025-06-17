@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookings</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="header"></div>
+    
+    <div class="container">
+        <h1 class="title">My Bookings</h1>
+        
+        <div class="tabs">
+            <div class="tab active" data-tab="upcoming">Upcoming</div>
+            <div class="tab" data-tab="past">Past</div>
+            <div class="tab" data-tab="cancelled">Cancelled</div>
+        </div>
+        
+        <div class="tab-content" id="upcoming">
+            <h2 class="section-title">Upcoming Bookings</h2>
+            
+            <div class="booking-grid">
+                <div class="booking-card">
+                    <div class="hotel-image">🏨</div>
+                    <div class="booking-info">
+                        <h3>Dummy Hotel</h3>
+                        <p>Check-in Jun 20, 2024 • 2 nights • 2 guests</p>
+                    </div>
+                </div>
+                
+                <div class="booking-card">
+                    <div class="hotel-image">🏨</div>
+                    <div class="booking-info">
+                        <h3>Dummy Hotel</h3>
+                        <p>Check-in Jun 20, 2024 • 2 nights • 2 guests</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-title">Booking Details</h2>
+            
+            <div class="booking-details">
+                <div class="detail-row">
+                    <div class="detail-image">🏨</div>
+                    <div class="detail-content">
+                        <div class="detail-item">Hotel</div>
+                        <div class="detail-item">Deluxe Room</div>
+                        <div class="detail-item">Jun 20 - Jun 22</div>
+                        <div class="detail-item">2 guests</div>
+                        <div class="detail-item price">$320</div>
+                        <div class="status">Paid</div>
+                    </div>
+                </div>
+                
+                <div class="detail-row">
+                    <div class="detail-image">🏨</div>
+                    <div class="detail-content">
+                        <div class="detail-item">Hotel</div>
+                        <div class="detail-item">Deluxe Room</div>
+                        <div class="detail-item">Jun 20 - Jun 22</div>
+                        <div class="detail-item">2 guests</div>
+                        <div class="detail-item price">$320</div>
+                        <div class="status">Paid</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="past" style="display: none;">
+            <h2 class="section-title">Past Bookings</h2>
+            <p style="color: #64748b; text-align: center; padding: 40px;">No past bookings to display</p>
+        </div>
+        
+        <div class="tab-content" id="cancelled" style="display: none;">
+            <h2 class="section-title">Cancelled Bookings</h2>
+            <p style="color: #64748b; text-align: center; padding: 40px;">No cancelled bookings to display</p>
+        </div>
+    </div>
+
+    <script src="booking.js"></script>
+</body>
+</html>
